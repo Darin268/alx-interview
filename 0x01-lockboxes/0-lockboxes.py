@@ -2,8 +2,14 @@
 """Script will unlock list of lists"""
 
 def canUnlockAll(boxes):
-    """This function will take a list of lists and the content
-       of a list will unlock other lists
+    """
+    Determines if all boxes can be unlocked.
+
+    Args:
+        boxes (list of lists): A list where each index contains a list of keys.
+
+    Returns:
+        bool: True if all boxes can be unlocked, False otherwise.
     """
     keys = [0]
     for key in keys:
