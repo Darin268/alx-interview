@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Script will unlock list of lists"""
 
+
 def canUnlockAll(boxes):
     """
     Determines if all boxes can be unlocked.
@@ -17,6 +18,7 @@ def canUnlockAll(boxes):
             if boxKey not in keys and boxKey < len(boxes):
                 keys.append(boxKey)
     return len(keys) == len(boxes)
+
 
 # Test cases
 if __name__ == "__main__":
